@@ -1,0 +1,9 @@
+str1=input()
+str2=input()
+while(True):
+    p=str1.find(str2)
+    if(p==-1):
+        break;
+    else:
+        str1=str1.replace(str2,"");
+print(len(str1))

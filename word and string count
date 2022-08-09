@@ -1,0 +1,6 @@
+n=int(input())
+for i in range(0,n):
+    str1=input()
+    words=str1.split(" ")
+    print(len(words))
+    print(len(str1))

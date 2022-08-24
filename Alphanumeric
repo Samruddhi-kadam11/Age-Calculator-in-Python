@@ -1,0 +1,11 @@
+alphastr=input()
+sum=0
+temp="0"
+for i in range(0,len(alphastr)):
+    if alphastr[i].isdigit():
+        temp+=alphastr[i]
+    else:
+        sum+=int(temp)
+        temp="0"
+        
+print(sum+int(temp))
